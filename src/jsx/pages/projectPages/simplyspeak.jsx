@@ -15,7 +15,7 @@ function SimplySpeak(props) {
             <Project {...data}>
                 <h6 className="subheading">Overview</h6>
                 <h1>SimplySpeak App For ESL Career Preparation</h1>
-                <p> Born from a <b>3 week design jam</b> with the goal of aiding refugees, our team drew from our own experiences with first generation immigrant family and how they've struggled with language barriers and employment. </p>
+                <p> Born from a <b>3 week design jam</b> with the goal to aid refugees, our team drew from our own experiences with first generation immigrant family and how they've struggled with language barriers and employment. </p>
 
                 <ZoomImg imgSrc={"img/ss-final.jpg"}/>
 
@@ -88,7 +88,7 @@ function SimplySpeak(props) {
                 imgSrc={"img/ss-lesson-planning.jpg"} 
                 imgPosition={"left"}
                 title={"Lesson Planning"} 
-                description={"During greyscaling, we map flows for 4 introductory lesson plans to figure out the kinds of learning modules that would be the most useful and engaging."}></ImgText>
+                description={"During greyscaling, we map user flows for 4 introductory lessons to determine which types of learning modules would be the most useful and engaging."}></ImgText>
                 
                 
                 <ImgText 
@@ -122,7 +122,7 @@ function SimplySpeak(props) {
                 imgSrc={"img/ss-lesson-2.gif"} 
                 imgPosition={"left"}
                 title={"Secondary Language Assistance"} 
-                description={"With our target users, we assume some proficency with English already. Therefore, we primarily focus on conversational assistance - pronunciation, grammar correction, and word recall."}>
+                description={"With our target users, we assume some proficency with English already. Thus, we primarily focus on conversational assistance - pronunciation, grammar correction, and word recall."}>
                 </ImgText>
                 
                 <ImgText 
@@ -151,18 +151,18 @@ function SimplySpeak(props) {
 
                 <ZoomImg imgSrc={"img/ss-changes.jpg"}/>
 
-                <p>Overall, we received positive reactions from all of our testers about the concept and intuitiveness of SimplySpeak. Half of our testers were genuinely excited about the translation and language help features .</p>
+                <p>Overall, we received positive reactions from all of our testers about the concept and intuitiveness of SimplySpeak. Half of our testers were genuinely excited about the translation and language help features.</p>
                 
                 <hr/> 
                 <h6 className='subheading'>Conclusion</h6>
                 <h2>Challenges & Takeaways</h2>
 
-                <p>In collaborating with and bouncing ideas off of other UX designers in this design jam, I gained a lot of valuable insights. </p>
+                <p>In bouncing ideas off of other UX designers during this design jam, I gained a lot of valuable insights. </p>
 
                 <ol>
                     <li>When in doubt, revisit user feedback and sit down with your users again.</li>
                     <li>Narrow down the target user base. Our designs had clearer direction when we focused on solving one specific problem really well, rather than solving multiple problems all at once. </li>
-                    <li>We spent a lot of time iterating on our first design direction. Stay open to pivoting when early design solutions don't feel quite right. </li>
+                    <li>We spent a lot of time iterating on our first decided upon design direction. Stay open to pivoting when early design solutions don't feel quite right. </li>
                 </ol>
 
             </Project>

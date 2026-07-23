@@ -18,7 +18,7 @@ function MavisVehiclePages(props) {
                     imgWidth={"200"}
                     imgPosition={"left"}
                     title={"Clara is looking to replace her daughter's tires"}>
-                    <p> She searches <b>"Tires that fit a Honda Civic 2022"</b> because she doesn't know what tire size is on her daughter's car. 
+                    <p> She searches <b>"Tires that fit a Honda Civic 2022"</b> because she doesn't know the tire size for her daughter's car. 
                         Since mavis.com does not reference vehicles, she lands on non-Mavis site and starts her shopping journey elsewhere.</p>
                 </ImgText>
 
@@ -34,14 +34,14 @@ function MavisVehiclePages(props) {
                 <h6 className="subheading">Market Research</h6>
                 <h2>Providing Quality Content For Search Ranking </h2>
                 
-                <p>We found that top ranking sites would capture all 4 levels of vehicle information users would search. </p>            
+                <p>We found that top ranking sites captured all 4 levels of information for vehicle searches. </p>            
                                 
                 <table>
                     <thead>
                         <tr>
                             <th>Lv</th>
                             <th>Information</th>
-                            <th>Example</th>
+                            <th>Search Example</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -68,7 +68,7 @@ function MavisVehiclePages(props) {
                     </tbody>
                 </table>
 
-                <p>Sites on the first page of Google had built pages for each of the 4 levels and would interlink these pages, boosting search ranking by allowing users to visit each level whilst continuing their search.</p>
+                <p>Sites on the first page of Google had pages for each of the 4 levels and would interlink these pages, boosting search ranking by allowing users to visit each level whilst continuing their search.</p>
                 <ZoomImg imgSrc={"img/vhp-market-research-search.jpg"} alt={"Top ranking results for vehicle-specific tire searches: Discouunt Tire, Goodyear, and Walmart."}/>
                 
                 <p>To compete, we aim to <b>provide more comprehensive information for each level</b>, while still engaging customers. We compiled the most useful features from vehicle pages to base our designs off of.</p>
@@ -143,12 +143,12 @@ function MavisVehiclePages(props) {
                 <h6 className="subheading">Conclusion</h6>
                 <h2>Challenges and Takeaways</h2>
 
-                <p>Design-wise, I learned a great deal about scaling to accommodate dynamic content, as well as striking a balance between designing for usability and SEO. Though we worked with our developer early in the process, other challenges still surfaced when talking over the technical implementation.</p>
+                <p>Design-wise, I learned a great deal about scaling to accommodate dynamic content, as well as striking a balance between designing for usability and SEO. Though we worked with our developers early in the process, other challenges still surfaced when talking over the technical implementation.</p>
                 <ol>
                     <li>Vehicle makes varied widely in number of trims and production years. Designs had to account for anywhere between 5-40 items, without looking too sparse or too cluttered.</li>
-                    <li>Because pages had to be engaging to users and hold a large amount of SEO content, I learned how to best prioritize information and <b>organize content hierarchically.</b></li>
+                    <li>Pages needed to engage users AND hold a large amount of SEO content. I learned how to best prioritize information and <b>organize content hierarchically</b> to achieve both goals.</li>
                     <li>We created templated copy blocks for each level, so developers could insert dynamic keywords and generate content <b>to scale for 1000's of pages.</b></li>
-                    <li>We had to find sources for brand new content, resulting in us contracting an outside vendor for vehicle images, in addition to building our own libraries for logos and vehicle composites.</li>
+                    <li>My team needed sources for brand new content, resulting in us contracting an outside vendor for vehicle images, in addition to building our own libraries for logos and vehicle composites.</li>
                 </ol>
                 
                 <ZoomImg imgSrc={"img/mavis-team.jpg"} />

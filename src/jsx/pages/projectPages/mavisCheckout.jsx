@@ -27,7 +27,7 @@ function MavisCheckout(props) {
                 <h6 className="subheading">Problem definition</h6>
                 <h2>Fewer Customers Completing Checkout</h2>
 
-                <p>In 2025, we saw a consistent drop in the conversion rate for tire purchases compared to last year. Though more users were visiting the site, <b>a smaller percentage were adding tires to their cart.</b>  </p>
+                <p>In 2025, we saw a consistent drop in the conversion rate for tire purchases compared to last year. Though more users were starting the tire buying journey, <b>a smaller percentage of users were actually reserving tires.</b>  </p>
 
                 <ZoomImg imgSrc={"img/mt-checkout-august-graph.jpg"} />
                 
@@ -39,7 +39,7 @@ function MavisCheckout(props) {
                 <ol>
                     <li>Improve specifically the % of users who added to cart on the <b>product results page</b> and the % of users who continued to checkout from the <b>cart page</b>. </li>
                     <li>Facilitate the new online promotion the marketing department was launching to drive tire sales.</li>
-                    <li>Audit the checkout flow from start to end and identify and solution additional user pain points.</li>
+                    <li>Audit the checkout flow from start to end to identify and solution user pain points.</li>
                 </ol>
 
                 
@@ -48,7 +48,7 @@ function MavisCheckout(props) {
                 <h6 className="subheading">Design Rationale</h6>
                 <h2>Improving Product Results</h2>
 
-                <p>Upon researching the product results page, we found that many users were confused by the filtering system.</p>
+                <p>Upon interviewing users about the product results page, we found many users confused by the filtering system.</p>
                 
                 <ImgText
                     imgSrc={"img/mt-checkout-results-issue-2.jpg"} 
@@ -62,8 +62,8 @@ function MavisCheckout(props) {
                     imgSrc={"img/mt-checkout-results-issue-3.jpg"} 
                     imgWidth={"200"}
                     imgPosition={"right"}
-                    title={"Few Default Results"}
-                    description={"Quick filter tabs would often yield very few results, with no indication as to how many results would be shown until users clicked into a tab. This left a negative impression and a perception of very low inventory."}>
+                    title={"No Filter Results"}
+                    description={"The quick filter tabs often yielded no or few results, with no indication as to how many results would be shown until users clicked into a tab. This left the negative perception of very low tire inventory."}>
                 </ImgText>
 
                 <ImgText
@@ -74,7 +74,7 @@ function MavisCheckout(props) {
                     description={"Due to the numerous issues with the tabs, along with lower tab click rates, we simplify the filters experience into a single button."}>
                 </ImgText>
 
-                <p>Heatmaps of the page indicate that 50% of users stopped just past the first row of tire results and that most users' attention was focused on the prices and CTAs.</p>
+                <p>Heatmaps of the page indicate that 50% of users stopped just past the first row of tire results and that most users' attention focused primarily on the prices and CTAs.</p>
 
                 <ZoomImg imgSrc={"img/mt-checkout-heatmaps.jpg"} />
 
@@ -82,7 +82,7 @@ function MavisCheckout(props) {
 
                 <ZoomImg imgSrc={"img/mt-checkout-tire-results.jpg"} />
 
-                <p>We additionally reduced the height of the product card to allow for more products to show at once, keeping the most valued tire specs indicated by previous user interviews.</p>
+                <p>We additionally reduced the height of the product card to allow for more products to show at once, keeping the most valued tire specs indicated by user interviews (warranty, season, speed rating).</p>
 
                 <ZoomImg imgSrc={"img/mt-checkout-tire-card-height.jpg"} />
 
@@ -91,15 +91,15 @@ function MavisCheckout(props) {
                 <h6 className="subheading">Marketing Collaboration</h6>
                 <h2>Showcasing Value</h2>
 
-                <p>Through strikethroughs, we clearly display the new future marketing promotion.</p>
+                <p>Through strikethroughs, we clearly display the new marketing promotion.</p>
 
-                <p>In discovery sessions however, we quickly realized that with multiple combinations of deals and vehicle fitment types, we had to define over <b>10 different card states.</b> </p>
+                <p>In discovery sessions however, we quickly realized that with multiple combinations of deals and vehicle fitment types, we had to define over <b>12 different card states.</b> </p>
                 <ZoomImg imgSrc={"img/mt-checkout-tire-card-variations.jpg"} />
 
-                <p>To further carry the deals through to checkout, we brainstorm various ways to highlight the savings value at the cart stage and continue iteration on option 5.</p>
+                <p>To further carry the deals through to checkout, we brainstormed various ways to highlight the savings value at the cart stage and continued iteration on option 5.</p>
                 <ZoomImg imgSrc={"img/mt-checkout-cart-variations.jpg"} />
 
-                <p>For the final cart design, we add radio buttons to more clearly indicate selectability, showcase free services included before fees, and display the earliest tire availability date.</p>
+                <p>For the final cart design, we added radio buttons to more clearly indicate selectability, showcased free services before fees, and added the date of tire availability.</p>
                 <ZoomImg imgSrc={"img/mt-checkout-cart.jpg"} />
 
 
@@ -119,7 +119,7 @@ function MavisCheckout(props) {
                 <div style={{display: 'flex', justifyContent: 'center', marginTop: '2rem', marginBottom: '2rem'}}><Button text={"View Full Report"} link={"https://www.figma.com/deck/wLLmKIMFmXz8QwbQyvb56m"} btnType={"primary"} newTab={true}></Button></div>
 
                 <n/>
-                <p>Several of these solutions have been ticketed and are being developed on a rolling basis. We continue to monitor checkout's performance and adjust changes accordingly to improve. </p>
+                <p>Several of these solutions were ticketed and are being developed on a rolling basis. We will continue to monitor the checkout's performance and adjust changes accordingly to improve. </p>
                 
                 <hr/>
 
