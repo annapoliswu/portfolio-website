@@ -9,10 +9,10 @@ nav{
     justify-content: center;
     padding-top: 42px;
     padding-bottom: 24px;
-
-
 }
-
+#menuText{
+    z-index: 99;
+}
 
 nav > ul{
     display: flex;
@@ -22,6 +22,7 @@ nav > ul{
     gap: 60px;
     list-style-type: none;
     padding: 0;
+    transition: max-height 0.15s ease-in-out;
 }
 
 nav > li{
@@ -55,7 +56,8 @@ nav a:hover{
 //mobile devices
 @media only screen and (max-width: $mobile) {
     .navHidden{
-        display: none;
+        max-height: 0px;
+        overflow: hidden;
     }
 
     nav{
@@ -73,6 +75,8 @@ nav a:hover{
         padding: 0;
         margin: 0;
         gap:0px;
+        
+        max-height: 400px;
     }
 
     nav li, nav button{

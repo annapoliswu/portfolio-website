@@ -13,7 +13,7 @@ const HomeHero = (props) => {
         <ScrollReveal animationType="fade" delay={100} once={false}>
             
             <div className="homeHero">
-                <p className='homeHeroBackgroundText font-xl'>吴紫旰</p>
+                <p className='homeHeroBackgroundText font-xl' translate="no">吴紫旰</p>
                 <div className="homeHeroContainer">
                 <h1 className='homeHeroTitle font-2xl'>Zihan Wu</h1>
                 <p className='homeHeroBlurb font-md'>
