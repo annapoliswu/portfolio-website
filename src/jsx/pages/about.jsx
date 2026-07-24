@@ -12,7 +12,7 @@ function About(props) {
                     </div>
                     
                     <div className="leftInfoContainer">
-                        <a href="mailto:zihanna.wu@gmail.com"><img className="aboutIcon" src="img/icon-email.svg" alt="Email" />zihanna.wu@gmail.com</a>
+                        <a href="mailto:zihannawu@gmail.com"><img className="aboutIcon" src="img/icon-email.svg" alt="Email" />zihannawu@gmail.com</a>
                         <a href="https://www.linkedin.com/in/zihannawu/" target="_blank" rel="noopener noreferrer"><img className="aboutIcon" src="img/icon-linkedin.svg" alt="LinkedIn" />linkedin.com/in/zihannawu</a>
                     </div>
 
@@ -32,6 +32,9 @@ function About(props) {
                         {url: "img/about-photo-3.jpg"},
                         {url: "img/about-photo-4.jpg"},
                         {url: "img/about-photo-5.jpg"},
+                        {url: "img/about-photo-8.jpg"},
+                        {url: "img/about-photo-7.jpg"},
+                        {url: "img/about-photo-9.jpg"},
                     ]}></MasonGrid>
                     
 
