@@ -3,7 +3,7 @@ import {  NavLink, useLocation } from 'react-router-dom';
 import '../../css/navbar.scss';
 
 const Navbar = () => {
-    const [isNavOpen, setIsNavOpen] = useState(true);
+    const [isNavOpen, setIsNavOpen] = useState(false);
     const location = useLocation();
 
     const toggleNav = () => {

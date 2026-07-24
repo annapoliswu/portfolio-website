@@ -13,7 +13,7 @@ const Footer = () => {
                 <p id='footerName'>Zihan Wu</p>
                 <p id='footerBlurb'>Let's work together!</p>
                 <div id="footerSocials">
-                    <a href="mailto:zihanna.wu@gmail.com"><img className="footerIcon" src="img/icon-email.svg" alt="Email" /></a>
+                    <a href="mailto:zihannawu@gmail.com"><img className="footerIcon" src="img/icon-email.svg" alt="Email" /></a>
                     <a href="https://www.linkedin.com/in/zihannawu/" target="_blank" rel="noopener noreferrer"><img className="footerIcon" src="img/icon-linkedin.svg" alt="LinkedIn" /></a>
                     <a href="https://github.com/annapoliswu" target="_blank" rel="noopener noreferrer"><img className="footerIcon" src="img/icon-github.svg" alt="GitHub"/></a>
                 </div>
