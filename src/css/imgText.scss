@@ -3,6 +3,7 @@
 
 .imgTextContainer{
     display: grid;
+    direction: rtl;
     grid-template-columns: auto 1fr;
     gap: 4rem;
     align-items: center;
@@ -10,8 +11,7 @@
 }
 
 .imgTextContainer p{
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin: 1rem 0rem;
 }
 
 .imgTextImage{
@@ -20,7 +20,7 @@
 }
 
 .imgTextContainer.right{
-    direction: rtl;
+    direction: ltr;
 }
 
 
@@ -56,15 +56,23 @@
         display: grid;
         grid-template-columns: 1fr;
         justify-items: center;
-        gap: 2rem;
+        gap: 0rem;
         margin: 2rem 0;
+    }
+
+    .imgTextContentContainer{
+        gap:0rem;
+    }
+
+        
+    .imgTextContainer p{
+        margin: 0rem 0rem;
     }
 
     .imgTextImage{
         max-height: 500px;
         max-width: 100%;
         width: auto;
-        margin: 0
     }
 
     img{
