@@ -6,14 +6,11 @@
     justify-content: top;
     align-items: center;
 
-    padding: 1% 5% 2% 5%;
+    padding: 1% 5% 4% 5%;
 
-    gap: 1.5rem;
+    gap: 2rem;
     border-radius: $rounded;
-    background-color: none;
-
-    position: relative;
-    top: -2rem;
+    background-color: white;
 }
 
 .homeHeroBackgroundText{
@@ -25,7 +22,7 @@
     font-weight: 700;
 
     position: relative;
-    top: 1rem;
+    top: 2rem;
 
     font-size: 10vw;
     line-height:80%;
