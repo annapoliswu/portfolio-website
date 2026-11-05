@@ -5,7 +5,7 @@ import { ScrollReveal } from '@allwells/react-scroll-reveal';
 
 const ZoomImg = (props) => {
     return(
-    <ScrollReveal animationType="fade" delay={60} once={false} duration={500}>
+    <ScrollReveal animationType="fade" delay={80} once={false} duration={600}>
     <Zoom >
         <img className={"zoomImg " + (props.className || "")} src={props.imgSrc} width={props.imgWidth} height={props.imgHeight} alt={props.alt || undefined} />
     </Zoom>
