@@ -11,7 +11,7 @@ function Gallery(props) {
             <hr/>
 
             <div id='vcs-sea'>
-                <p>Drew key posters and led art direction for the <a href="https://www.instagram.com/fromseatoseanyc/" target="_blank">2026 NYC Southeast Asian Festival</a>, garnering over 900+ attendees.</p>
+                <p>Drew key graphics and led creative direction for the <a href="https://www.instagram.com/fromseatoseanyc/" target="_blank">2026 NYC Southeast Asian Festival</a>, garnering over 900+ attendees.</p>
                 <MasonGrid imgList={[
                     {url: "img/vcs-sea-2.jpg"},
                     {url: "img/vcs-sea-1.jpg"},
@@ -20,24 +20,6 @@ function Gallery(props) {
                     {url: "img/vcs-sea-merch.jpg"},
                     {url: "img/vcs-sea-6.jpg"},
                     {url: "https://www.youtube.com/embed/aEqQiGJZTkk"}
-                ]}></MasonGrid>
-            </div>
-
-            <hr/>
-
-            <div id='vcs-beep-boop'>
-                <p>Designed artist highlights for a tech music night hosted by the Viet Creative Society <a href="https://www.instagram.com/p/DS5YAWNDli_/" target="_blank">(@vcs.nyc)</a>. </p>
-                <MasonGrid imgList={[
-                    {url: "img/vcs-beep-boop-1.jpg"},
-                    {url: "img/vcs-beep-boop-2.jpg"},
-                    {url: "img/vcs-beep-boop-3.jpg"},
-                    {url: "img/vcs-beep-boop-4.jpg"},
-                    {url: "img/vcs-beep-boop-5.jpg"},
-                    {url: "img/vcs-beep-boop-6.jpg"},
-                    {url: "img/vcs-beep-boop-10.jpg"},
-                    {url: "img/vcs-beep-boop-9.jpg"},
-                    {url: "img/vcs-beep-boop-8.jpg"},
-                    
                 ]}></MasonGrid>
             </div>
 
@@ -60,6 +42,24 @@ function Gallery(props) {
                     
                     {url: "img/mt-branding-5.jpg"},
                     {url: "img/mt-branding-6.jpg"},
+                ]}></MasonGrid>
+            </div>
+
+            <hr/>
+
+            <div id='vcs-beep-boop'>
+                <p>Designed artist highlights for a tech music night hosted by the Viet Creative Society <a href="https://www.instagram.com/p/DS5YAWNDli_/" target="_blank">(@vcs.nyc)</a>. </p>
+                <MasonGrid imgList={[
+                    {url: "img/vcs-beep-boop-1.jpg"},
+                    {url: "img/vcs-beep-boop-2.jpg"},
+                    {url: "img/vcs-beep-boop-3.jpg"},
+                    {url: "img/vcs-beep-boop-4.jpg"},
+                    {url: "img/vcs-beep-boop-5.jpg"},
+                    {url: "img/vcs-beep-boop-6.jpg"},
+                    {url: "img/vcs-beep-boop-10.jpg"},
+                    {url: "img/vcs-beep-boop-9.jpg"},
+                    {url: "img/vcs-beep-boop-8.jpg"},
+                    
                 ]}></MasonGrid>
             </div>
 
